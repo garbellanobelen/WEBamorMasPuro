@@ -1,0 +1,676 @@
+@charset "utf-8";
+/* Simplify width and height calculations */
+html {
+	box-sizing: border-box;
+	padding-bottom: 0px;
+}
+*, *:before,
+*:after {
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	width: 350;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	color: #06C;
+	background-color: #F9F8CF;
+	text-align: center;
+	vertical-align: top;
+	word-spacing: inherit;
+	white-space: normal;
+	height: auto;
+	width: inherit;
+	background-attachment: scroll;
+		}
+
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	background-attachment: scroll;
+	background-position: center center;
+	margin: auto;
+	}
+
+a{
+	text-decoration:none;
+	color:#FFFFFF;
+	}
+
+h1 {
+	padding-top: 150px;
+	font-size: 38px;
+	color: #01648B;
+	text-shadow: 4px -4px 4px #FFFFFF;
+	font-weight:700;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	}
+		
+h2 {
+	padding-top: 25px;
+	font-size: 30px;
+	}
+	
+h5 {
+	padding-top: 15px;
+	font-size: 25px;
+	font-style:italic;
+	}
+	
+p {
+	color: #8D8D8D;
+	font-size: 22px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	line-height:30px;
+	margin-top: 0px;
+	white-space: normal;
+	font-style: normal;
+	}
+	
+.pagar p {
+	color: #8D8D8D;
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	line-height:18px;
+	margin-top: 0px;
+	white-space: normal;
+	font-style: normal;
+	padding: 0;
+	}
+	
+.article {
+	text-align:center;
+	padding-bottom: 30px;
+	padding-left: 0px;;
+	padding-right: 0px;
+	padding-top: 25px;
+	background-color: #F9F8CF;
+}
+			
+.col{
+	width:100%;
+	}	
+			
+.button {
+	font-size: 20px;
+	font-weight: 900px;
+	text-decoration:none;
+	color: #0066CC;
+	border: outset;
+	padding: 4px 10px;
+	border-bottom-left-radius:12px;
+	border-top-right-radius:12px;
+	border-width: medium;
+	border-color:#FFFFCC;
+	background-color: #FFFFCC;
+	}
+	
+.camas {
+	padding: 150px 20px 15px;
+	background-color:#B0E1F5;
+	background-image: url(../imagenes/junior-en-cama-romantica.jpg);
+	background-size: cover;
+	background-position:center;
+	}
+	
+.sillones {
+	padding: 150px 20px 15px;
+	background-color:#B0E1F5;
+	background-size: cover;
+	background-position:center;
+	background-image: url(../imagenes/Sillon-Junior.jpg);
+	}
+
+.comederos {
+	padding: 150px 20px 15px;
+	background-color:#B0E1F5;
+	background-size: cover;
+	background-position:center;
+	background-image: url(../imagenes/comedero-zen.jpg);
+	}
+	
+.rascadores {
+	padding: 150px 20px 15px;
+	background-color:#B0E1F5;
+	background-size: cover;
+	background-position:center;
+	background-image: url(../imagenes/rascadores-agatha-web.jpg);
+	}
+	
+.veterinariaarizio {
+	padding: 150px 20px 15px;
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center;
+	background-image: url(../imagenes/arizio.JPG);
+	background-repeat:no-repeat;
+	}
+	
+.sandrina {
+	padding: 150px 20px 15px;
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center;
+	background-image: url(../imagenes/Sandrina.jpg);
+	background-repeat:no-repeat;
+	}
+		
+.veteva {
+	padding: 150px 20px 15px;
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center;
+	background-image: url(../imagenes/veteva.JPG);
+	background-repeat: no-repeat;
+	}
+		
+.amore {
+	padding: 150px 20px 15px;
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center;
+	background-image: url(../imagenes/amor-en-miniatura.jpg);
+	background-repeat:no-repeat;
+	}
+		
+.contactate {
+		font-size:30px;
+		padding-top: 10px;
+		padding-bottom:px;
+		background-color:#FDE9A4;
+		background-size:auto;
+		border-radius: 20px;
+		}
+				
+.descripcion {
+	padding: 1px 20px 10px;
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center;
+	float: right;
+	height: 310px;
+	border-bottom: thin;
+	border-bottom-color:#055E90;
+	margin-bottom: 15px;
+	width:100%;
+	}	
+	
+.descripcion-rascador {
+	padding: 20px 30px 15px;
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center;
+	float: right;
+	height: 500px;
+	border-bottom: thin;
+	border-bottom-color:#055E90;
+	margin-bottom: 15px;
+	width:100%;
+	}	
+	
+.descripcion p{
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 19px;
+	font-style: normal;
+	font-stretch:narrower;
+	padding: 0;
+	}
+		
+.descripcion a{
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #2EA82D;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	border-color: #FFFFFF ;
+	border-style:solid;
+	border-width:thin;
+	}
+	
+.descripcion a2{
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: blink;
+	color: #FFFFFF;
+	background-color: #f9791a;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	border-style: dotted;
+	border-width: medium;
+	}
+	
+.descripcion-rascador a2{
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: blink;
+	color: #FFFFFF;
+	background-color: #f9791a;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	border-style: dotted;
+	border-width: medium;
+	}
+	
+.article a2{
+	line-height: 50px;
+	font-size: 22px;
+	text-decoration: blink;
+	color: #FFFFFF;
+	background-color: #f9791a;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	border-radius: 12px;
+	border-style: dotted;
+	border-width: medium;
+	}	
+	
+.descripcion-rascador a{
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #2EA82D;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	border-color: #FFFFFF ;
+	border-style:solid;
+	border-width:thin;
+	}
+	
+.descripcion-rascador p {
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 22px;
+	font-style: normal;
+	}
+		
+.horario p{
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 18px;
+	padding-bottom: 8px;
+	font-style: italic;
+	}
+	
+.foto-romantica {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 310px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/junior-en-cama-romantica-450.jpg);
+	}
+	
+	.foto-clasica {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 310px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/clasica-3.jpg);
+	}
+		
+.foto-campo {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 310px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/cama-campo.jpg);
+	}
+	
+.foto-zen {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 310px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/zen3.jpg);
+	}	
+	
+.foto-japonesa {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 310px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/cama-japonesa-2.jpg);
+	}
+	
+.basico-con-casa {
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/basico-con-casa.jpg);
+	background-repeat:no-repeat;
+	}
+	
+.basico-con-juego {
+	background-color: #B0E1F5;
+	background-size:contain;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-image: url(../imagenes/basico-con-juego.jpg);
+	}
+		
+.basico {
+	background-color: #B0E1F5;
+	background-size:contain;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-image: url(../imagenes/basicos.jpg);
+	}
+	
+.Teseo {
+	background-color: #B0E1F5;
+	background-size:contain;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-image: url(../imagenes/Teseo.jpg);
+	}
+	 	 
+.Mao {
+	background-color: #B0E1F5;
+	background-size:contain;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-image: url(../imagenes/Mao-web.jpg);
+	}
+		
+.dinamita {
+	background-color: #B0E1F5;
+	background-size: contain;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/dinamita.jpg);
+	background-repeat:no-repeat;
+	}
+	
+.foto-comed-romantico {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/romantico-web.jpg);
+	}
+	
+.foto-comed-zen {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/comedero-zen-web.jpg);
+	}
+	
+.foto-comed-campo {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 305px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/campo-chico-2.jpg);
+	}
+	
+.junior {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/Sillon-Junior-web.jpg);
+	}
+		
+.kevin {
+	background-color: #B0E1F5;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	background-image: url(../imagenes/kevin-web.jpg);
+	}
+	
+.otras-fotos {
+	background-color: #B0E1F5;
+	background-size:cover;
+	background-position: center center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+	background-attachment: scroll;
+	}
+	
+.footer{
+	font-size: 12px;
+	padding: 10px;
+	background-color: #D0E9F7;
+	max-width:1000px;
+	margin:auto;
+	float: none;
+	}
+
+.volver a {
+	font-size: 20px;
+	line-height: 50px;
+	color: #FFFFFF;
+	background-color: #0066CC;
+	max-width:1000px;
+	margin:auto;
+	float: none;
+	padding-left: 24px;
+	padding-right: 24px; 
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-radius: 12px;
+	border-color: #0755F4;
+	border-style:solid;
+	border-width:thin;
+	}
+	
+.col-en-dos-izq {
+	width: 50%;
+	text-align:left;
+	float: left;
+	line-height: 5px;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.col-en-dos-izq a{
+	line-height: 20 px;
+	font-size: 16px;
+	text-decoration: underline;
+	background-color: #f3a928;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	border-color: #FFFFFF ;
+	border-style:solid;
+	border-width:thin;
+	
+	
+	}
+
+.col-en-dos-izq p{
+	line-height: 30px;
+	padding-left: 1 px;
+	padding-top: 1 px;
+}
+
+.boton-comprar {
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #2EA82D;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 12px;
+	border-color: #FFFFFF ;
+	border-style:solid;
+	border-width:thin;
+}
+
+.formulario {
+	padding-bottom: 20px;
+	padding-left: 4px;
+	}
+	
+.formulario-contacto {
+	padding-bottom: 20px;
+	padding-left: 4px;
+	alignment-adjust:central;
+	
+	}
+	
+
+.formulario input {
+  padding: 8px;
+  background-color: #FFFFFF;
+ border-color:#81A4F5;
+ 
+}
+
+
+.formulario td {
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.formulario textarea {
+  padding-left: 10px;
+  background-color: #FFFFFF;
+  border-color:#81A4F5;
+  border-width: medium;
+}
+
+.costos-envio p{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 18px;
+	line-height: 18px;
+	text-align:left;
+	color:#0D9030;
+}
+	
+
+.row:after {
+	clear:both;
+}
+
+/* phone view*/
+	@media (min-width: 450px){
+	.style-logo {
+	float:left;
+	}
+	}
+	
+/*tablet view*/
+	@media (min-width : 767px ){
+	.style-nav ul li {
+	display: inline-block;
+	}
+			
+.col-en-cuatro {
+	width: 25%;
+	}
+.col-en-dos {
+	width: 50%;
+	}
+		
+.col {
+	float: left;
+	padding: 0px 7px 14px;
+	}
+	}
+		
+/*Desktop view*/
+	@media (min-width: 1024px){
+	.style-nav ul {
+	float: none;
+	}
+	}
